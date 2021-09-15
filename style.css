@@ -1,0 +1,137 @@
+@font-face {
+  src: url(fonts/musaddika.ttf);
+  font-family: musasdikka;
+}
+
+@font-face {
+  src: url(fonts/Love.ttf);
+  font-family: love;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.head {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 80px;
+  background: #940357;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#940357),
+    color-stop(53%, #b620df),
+    to(#ff008e)
+  );
+  background: linear-gradient(90deg, #940357 0%, #b620df 53%, #ff008e 100%);
+  font-size: 20px;
+}
+
+.head h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: #0efff3;
+  font-family: musasdikka;
+  text-transform: capitalize;
+}
+
+.head .one img {
+  display: inline-block;
+  width: 80px;
+  height: 87px;
+}
+
+.love-box {
+  width: 100%;
+  background-color: orchid;
+  height: 200px;
+  background-image: url("2.webp");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.love-box .opacity {
+  background-color: #000000ab;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.love-box .opacity .musaddika {
+  font-weight: bold;
+  font-family: musasdikka;
+  padding-left: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.love-box .opacity .musaddika .mus {
+  color: #ff06ea;
+  font-size: 44px;
+}
+
+.love-box .opacity .musaddika .dika {
+  color: #41da05;
+  font-size: 30px;
+}
+
+.love-box .cd-words-wrapper {
+  color: #d8fd07;
+  font-family: love;
+}
+
+.love-box .cd-words-wrapper b {
+  font-size: 20px;
+}
+
+.made {
+  background-color: #05054d;
+}
+
+.made .made-box {
+  font-size: 25px;
+  color: darkturquoise;
+  cursor: pointer;
+
+  display: inline-block;
+  padding: 10px;
+}
+
+.made {
+  color: gold;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: musasdikka;
+}
+
+.img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
